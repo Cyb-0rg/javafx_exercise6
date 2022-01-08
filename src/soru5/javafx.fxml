@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="soru5.commands">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="4.0" prefHeight="133.0" prefWidth="350.0">
+         <children>
+            <ToggleButton fx:id="hideButton" layoutX="211.0" layoutY="26.0" mnemonicParsing="false" onAction="#hideNseek" text="hide">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toggleBros" />
+               </toggleGroup></ToggleButton>
+            <TextArea fx:id="textField" layoutX="64.0" layoutY="67.0" prefHeight="37.0" prefWidth="167.0" text="lutfen beni oldurmeyin" />
+            <ToggleButton fx:id="showButton" layoutX="52.0" layoutY="26.0" mnemonicParsing="false" onAction="#hideNseek" text="show" toggleGroup="$toggleBros" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

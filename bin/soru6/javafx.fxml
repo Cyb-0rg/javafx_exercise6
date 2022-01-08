@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="soru6.commands">
+   <children>
+      <AnchorPane layoutX="-30.0" layoutY="-8.0" prefHeight="263.0" prefWidth="386.0">
+         <children>
+            <Button fx:id="upButton" layoutX="181.0" layoutY="31.0" mnemonicParsing="false" onAction="#moveUp" text="   up   " />
+            <Button fx:id="rightButton" layoutX="233.0" layoutY="56.0" mnemonicParsing="false" onAction="#moveRight" text="right" />
+            <Button fx:id="downButton" layoutX="181.0" layoutY="81.0" mnemonicParsing="false" onAction="#moveDown" text=" down " />
+            <Button fx:id="leftButton" layoutX="134.0" layoutY="56.0" mnemonicParsing="false" onAction="#moveLeft" text="  left  " />
+            <TextField fx:id="textField" layoutX="143.0" layoutY="172.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
